@@ -1,0 +1,6 @@
+input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    min-width: 300px;
+}

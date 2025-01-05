@@ -1,0 +1,21 @@
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid grey;
+    text-transform: capitalize;
+    margin-right: 5px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.number {
+    font-size: 25px;
+    color: burlywood;
+}

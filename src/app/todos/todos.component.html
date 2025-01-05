@@ -1,0 +1,13 @@
+<h2>Your are in Todos Page</h2>
+
+<form>
+    <input type="text" name="searchTerm" [(ngModel)]="searchTerm" id="" placeholder="Search todo..">
+</form>
+
+@if(!todoItems().length){
+    <p>Todos are loading...</p>
+}
+
+@for (todo of todoItems() | filterTodos: searchTerm(); track todo.id){
+    <app-todo-items (todoToggled)="todoChanged($event)" [todo]="todo"/>
+}

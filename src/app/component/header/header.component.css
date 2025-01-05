@@ -1,0 +1,30 @@
+header{
+    padding: 20px 40px;
+    background-color: bisque;
+}
+
+header span {
+    font-size: 45px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    font-size: 17px;
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+li:hover {
+    text-decoration: underline;
+}

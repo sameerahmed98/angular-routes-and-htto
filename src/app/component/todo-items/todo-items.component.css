@@ -1,0 +1,24 @@
+li.completed {
+    text-decoration: line-through;
+}
+
+li.completed label {
+    background-color: green;
+    color: white;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+input{
+    display: inline;
+}
+
+input, label{
+    cursor: pointer;
+}
